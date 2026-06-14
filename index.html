@@ -1,12 +1,21 @@
-<!DOCTYPE html><html class="dark" lang="en"><head>
-<meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Guillermo Martínez | Senior AI &amp; Automation Consultant</title>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script id="tailwind-config">
+<!DOCTYPE html>
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Guillermo Martínez | Senior AI &amp; Automation Consultant</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@400;500&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
             theme: {
@@ -96,78 +105,101 @@
             },
         }
     </script>
-<style>
+    <style>
         body {
             background-color: #050505;
             color: #f6ded3;
             scroll-behavior: smooth;
         }
+
         .glass {
             background: rgba(13, 17, 23, 0.6);
             backdrop-filter: blur(20px);
             border: 1px solid rgba(255, 255, 255, 0.08);
             border-top: 1px solid rgba(255, 255, 255, 0.15);
         }
+
         .reveal {
             opacity: 0;
             transform: translateY(30px);
             transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
         }
+
         .reveal.active {
             opacity: 1;
             transform: translateY(0);
         }
+
         .glow-hover:hover {
             box-shadow: 0 0 20px rgba(249, 115, 22, 0.2);
             border-color: rgba(249, 115, 22, 0.4);
         }
     </style>
 </head>
+
 <body class="font-body-md overflow-x-hidden">
-<!-- Navigation Shell -->
-<header class="fixed top-6 left-1/2 -translate-x-1/2 max-w-5xl rounded-full border border-white/10 bg-surface/60 dark:bg-surface-container-low/60 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(0,0,0,0.36)] flex justify-between items-center px-6 md:px-8 z-50 py-3 w-[92%]">
-<div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">automation</span>
-<span class="font-label-sm text-label-sm font-bold tracking-widest text-on-surface uppercase">Guillermo Martínez</span>
-</div>
-<nav class="hidden md:flex gap-8 items-center"><a class="font-label-sm text-label-sm text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#home">Home</a><a class="font-label-sm text-label-sm text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#about">About</a><a class="font-label-sm text-label-sm text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#projects">Projects</a><a class="font-label-sm text-label-sm text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#experience">Experience</a><a class="font-label-sm text-label-sm text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#contact">Contact</a></nav>
-<a href="#contact" class="bg-primary-container text-on-primary font-label-sm text-label-sm px-6 py-2 rounded-full hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center">Let's Talk</a>
-</header>
-<main>
-<!-- Hero Section -->
-<section class="relative min-h-screen flex flex-col items-center justify-center pt-32 pb-20 px-6 overflow-hidden" id="home">
-<!-- Animated Background Shader -->
-<!-- STITCH_SHADER_START:ANIMATION_4 class="absolute inset-0 w-full h-full opacity-40" -->
-<div class="absolute inset-0 w-full h-full opacity-40" style="display:block;">
-<canvas id="shader-canvas-ANIMATION_4" style="display:block;width:100%;height:100%" width="1280" height="1024"></canvas>
-<script>
-(function() {
-  const canvas = document.getElementById('shader-canvas-ANIMATION_4');
+    <!-- Navigation Shell -->
+    <header
+        class="fixed top-6 left-1/2 -translate-x-1/2 max-w-5xl rounded-full border border-white/10 bg-surface/60 dark:bg-surface-container-low/60 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(0,0,0,0.36)] flex justify-between items-center px-6 md:px-8 z-50 py-3 w-[92%]">
+        <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-primary"
+                style="font-variation-settings: 'FILL' 1;">automation</span>
+            <span class="font-label-sm text-label-sm font-bold tracking-widest text-on-surface uppercase">Guillermo
+                Martínez</span>
+        </div>
+        <nav class="hidden md:flex gap-8 items-center"><a
+                class="font-label-sm text-label-sm text-on-surface-variant font-medium hover:text-primary transition-colors duration-300"
+                href="#home">Home</a><a
+                class="font-label-sm text-label-sm text-on-surface-variant font-medium hover:text-primary transition-colors duration-300"
+                href="#about">About</a><a
+                class="font-label-sm text-label-sm text-on-surface-variant font-medium hover:text-primary transition-colors duration-300"
+                href="#projects">Projects</a><a
+                class="font-label-sm text-label-sm text-on-surface-variant font-medium hover:text-primary transition-colors duration-300"
+                href="#experience">Experience</a><a
+                class="font-label-sm text-label-sm text-on-surface-variant font-medium hover:text-primary transition-colors duration-300"
+                href="#contact">Contact</a></nav>
+        <a href="#contact"
+            class="bg-primary-container text-on-primary font-label-sm text-label-sm px-6 py-2 rounded-full hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center">Let's
+            Talk</a>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section
+            class="relative min-h-screen flex flex-col items-center justify-center pt-32 pb-20 px-6 overflow-hidden"
+            id="home">
+            <!-- Animated Background Shader -->
+            <!-- STITCH_SHADER_START:ANIMATION_4 class="absolute inset-0 w-full h-full opacity-40" -->
+            <div class="absolute inset-0 w-full h-full opacity-40" style="display:block;">
+                <canvas id="shader-canvas-ANIMATION_4" style="display:block;width:100%;height:100%" width="1280"
+                    height="1024"></canvas>
+                <script>
+                        (function () {
+                            const canvas = document.getElementById('shader-canvas-ANIMATION_4');
 
-  // Sync the WebGL drawing-buffer size with the CSS-driven layout size.
-  // This fires on initial layout and whenever the element is resized.
-  function syncSize() {
-    const w = canvas.clientWidth  || 1280;
-    const h = canvas.clientHeight || 720;
-    if (canvas.width !== w || canvas.height !== h) {
-      canvas.width  = w;
-      canvas.height = h;
-    }
-  }
-  if (typeof ResizeObserver !== 'undefined') {
-    new ResizeObserver(syncSize).observe(canvas);
-  }
-  syncSize();
+                            // Sync the WebGL drawing-buffer size with the CSS-driven layout size.
+                            // This fires on initial layout and whenever the element is resized.
+                            function syncSize() {
+                                const w = canvas.clientWidth || 1280;
+                                const h = canvas.clientHeight || 720;
+                                if (canvas.width !== w || canvas.height !== h) {
+                                    canvas.width = w;
+                                    canvas.height = h;
+                                }
+                            }
+                            if (typeof ResizeObserver !== 'undefined') {
+                                new ResizeObserver(syncSize).observe(canvas);
+                            }
+                            syncSize();
 
-  const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
-  if (!gl) return;
-  const vs = `attribute vec2 a_position;
+                            const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+                            if (!gl) return;
+                            const vs = `attribute vec2 a_position;
 varying vec2 v_texCoord;
 void main() {
   v_texCoord = a_position * 0.5 + 0.5;
   gl_Position = vec4(a_position, 0.0, 1.0);
 }`;
-  const fs = `precision highp float;
+                            const fs = `precision highp float;
 
 uniform float u_time;
 uniform vec2 u_resolution;
@@ -211,362 +243,474 @@ void main() {
     
     gl_FragColor = vec4(mix(bg, color, alpha), 1.0);
 }`;
-  function cs(type, src) {
-    const s = gl.createShader(type);
-    gl.shaderSource(s, src);
-    gl.compileShader(s);
-    return s;
-  }
-  const prog = gl.createProgram();
-  gl.attachShader(prog, cs(gl.VERTEX_SHADER, vs));
-  gl.attachShader(prog, cs(gl.FRAGMENT_SHADER, fs));
-  gl.linkProgram(prog);
-  gl.useProgram(prog);
-  const buf = gl.createBuffer();
-  gl.bindBuffer(gl.ARRAY_BUFFER, buf);
-  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
-  const pos = gl.getAttribLocation(prog, 'a_position');
-  gl.enableVertexAttribArray(pos);
-  gl.vertexAttribPointer(pos, 2, gl.FLOAT, false, 0, 0);
-  const uTime = gl.getUniformLocation(prog, 'u_time');
-  const uRes = gl.getUniformLocation(prog, 'u_resolution');
-  const uMouse = gl.getUniformLocation(prog, 'u_mouse');
+                            function cs(type, src) {
+                                const s = gl.createShader(type);
+                                gl.shaderSource(s, src);
+                                gl.compileShader(s);
+                                return s;
+                            }
+                            const prog = gl.createProgram();
+                            gl.attachShader(prog, cs(gl.VERTEX_SHADER, vs));
+                            gl.attachShader(prog, cs(gl.FRAGMENT_SHADER, fs));
+                            gl.linkProgram(prog);
+                            gl.useProgram(prog);
+                            const buf = gl.createBuffer();
+                            gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+                            gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
+                            const pos = gl.getAttribLocation(prog, 'a_position');
+                            gl.enableVertexAttribArray(pos);
+                            gl.vertexAttribPointer(pos, 2, gl.FLOAT, false, 0, 0);
+                            const uTime = gl.getUniformLocation(prog, 'u_time');
+                            const uRes = gl.getUniformLocation(prog, 'u_resolution');
+                            const uMouse = gl.getUniformLocation(prog, 'u_mouse');
 
-  // u_mouse is in pixel coordinates matching u_resolution (ShaderToy convention).
-  // Shaders that need normalized coords should use: u_mouse / u_resolution.
-  let mouse = { x: canvas.width / 2, y: canvas.height / 2 };
-  window.addEventListener('mousemove', (event) => {
-    const rect = canvas.getBoundingClientRect();
-    if (rect.width && rect.height) {
-      const nx = (event.clientX - rect.left) / rect.width;
-      const ny = 1.0 - (event.clientY - rect.top) / rect.height;
-      mouse.x = nx * canvas.width;
-      mouse.y = ny * canvas.height;
-    }
-  });
+                            // u_mouse is in pixel coordinates matching u_resolution (ShaderToy convention).
+                            // Shaders that need normalized coords should use: u_mouse / u_resolution.
+                            let mouse = { x: canvas.width / 2, y: canvas.height / 2 };
+                            window.addEventListener('mousemove', (event) => {
+                                const rect = canvas.getBoundingClientRect();
+                                if (rect.width && rect.height) {
+                                    const nx = (event.clientX - rect.left) / rect.width;
+                                    const ny = 1.0 - (event.clientY - rect.top) / rect.height;
+                                    mouse.x = nx * canvas.width;
+                                    mouse.y = ny * canvas.height;
+                                }
+                            });
 
-  function render(t) {
-    if (typeof ResizeObserver === 'undefined') syncSize();
-    gl.viewport(0, 0, canvas.width, canvas.height);
-    if (uTime) gl.uniform1f(uTime, t * 0.001);
-    if (uRes) gl.uniform2f(uRes, canvas.width, canvas.height);
-    if (uMouse) gl.uniform2f(uMouse, mouse.x, mouse.y);
-    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-    requestAnimationFrame(render);
-  }
-  render(0);
-})();
-</script>
-</div>
-<!-- STITCH_SHADER_END:ANIMATION_4 -->
-<div class="relative z-10 max-w-4xl w-full text-center flex flex-col items-center">
-<div class="relative mb-8">
-<div class="w-32 h-32 md:w-44 md:h-44 rounded-full border-2 border-primary-container/30 p-1 animate-pulse">
-<div class="w-full h-full rounded-full bg-surface-container overflow-hidden border border-primary-container shadow-[0_0_30px_rgba(249,115,22,0.3)]">
-<img alt="Guillermo Martínez Portrait" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="A professional close-up portrait of a senior consultant with a sophisticated and visionary expression. He is wearing a modern charcoal suit against a dark, minimalist architectural background. The lighting is cinematic with warm amber highlights on one side, reflecting a premium enterprise aesthetic. The overall mood is authoritative, precise, and technologically advanced, aligned with a high-end AI and automation brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSP4o-eh5IMqahvl8O995frwIQxmuaS04EhQGJzx3hprtFlWsfsx62_71lPc-8T2yLGypm8EHi4gsatuUfvzeDvMbzc-Wa7m-A7NJcY2Qkl1vG9BmKtqV2TfIaQaK1llVsPXenxheIiEVuYCtcJ7De55o4OKnzvybieLvJQQQHcnzQAILkhcKbm5Fa__G_k3VW0deESqDanc9v__QtURvXqOpsVHXFUiwZS-NuIBKR55wZgebEhocAR5H53QMRd8CQAn_gEUCO3LA">
-</div>
-</div>
-</div>
-<p class="font-label-sm text-label-sm text-primary-container tracking-[0.3em] uppercase mb-4 reveal active">Hello, I'm Guillermo</p>
-<h1 class="font-display-xl text-display-xl md:text-[88px] mb-6 reveal active" style="transition-delay: 100ms;">
-                    Business Process <br class="hidden md:block"> <span class="text-primary-container">Automation &amp; AI</span> Solutions
+                            function render(t) {
+                                if (typeof ResizeObserver === 'undefined') syncSize();
+                                gl.viewport(0, 0, canvas.width, canvas.height);
+                                if (uTime) gl.uniform1f(uTime, t * 0.001);
+                                if (uRes) gl.uniform2f(uRes, canvas.width, canvas.height);
+                                if (uMouse) gl.uniform2f(uMouse, mouse.x, mouse.y);
+                                gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+                                requestAnimationFrame(render);
+                            }
+                            render(0);
+                        })();
+                </script>
+            </div>
+            <!-- STITCH_SHADER_END:ANIMATION_4 -->
+            <div class="relative z-10 max-w-4xl w-full text-center flex flex-col items-center">
+                <div class="relative mb-8">
+                    <div
+                        class="w-32 h-32 md:w-44 md:h-44 rounded-full border-2 border-primary-container/30 p-1 animate-pulse">
+                        <div
+                            class="w-full h-full rounded-full bg-surface-container overflow-hidden border border-primary-container shadow-[0_0_30px_rgba(249,115,22,0.3)]">
+                            <img alt="Guillermo Martínez Portrait"
+                                class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                                data-alt="A professional close-up portrait of a senior consultant with a sophisticated and visionary expression. He is wearing a modern charcoal suit against a dark, minimalist architectural background. The lighting is cinematic with warm amber highlights on one side, reflecting a premium enterprise aesthetic. The overall mood is authoritative, precise, and technologically advanced, aligned with a high-end AI and automation brand."
+                                src="img/gmp.png">
+                        </div>
+                    </div>
+                </div>
+                <p
+                    class="font-label-sm text-label-sm text-primary-container tracking-[0.3em] uppercase mb-4 reveal active">
+                    Hello, I'm Guillermo</p>
+                <h1 class="font-display-xl text-display-xl md:text-[88px] mb-6 reveal active"
+                    style="transition-delay: 100ms;">
+                    Business Process <br class="hidden md:block"> <span class="text-primary-container">Automation &amp;
+                        AI</span> Solutions
                 </h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10 reveal active" style="transition-delay: 200ms;">
-                    Architecting high-level strategic authority with futuristic technical depth. I transform complex enterprise workflows into autonomous, scalable ecosystems.
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10 reveal active"
+                    style="transition-delay: 200ms;">
+                    Architecting high-level strategic authority with futuristic technical depth. I transform complex
+                    enterprise workflows into autonomous, scalable ecosystems.
                 </p>
-<div class="flex flex-col md:flex-row gap-4 reveal active" style="transition-delay: 300ms;">
-<a class="bg-primary-container text-on-primary px-8 py-4 rounded-full font-label-sm text-label-sm flex items-center justify-center gap-2 glow-hover transition-all" href="#projects">
+                <div class="flex flex-col md:flex-row gap-4 reveal active" style="transition-delay: 300ms;">
+                    <a class="bg-primary-container text-on-primary px-8 py-4 rounded-full font-label-sm text-label-sm flex items-center justify-center gap-2 glow-hover transition-all"
+                        href="#projects">
                         VIEW PROJECTS <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
-</a>
-<a class="border border-white/20 bg-white/5 backdrop-blur-md text-white px-8 py-4 rounded-full font-label-sm text-label-sm hover:bg-white/10 transition-all" href="#contact">
+                    </a>
+                    <a class="border border-white/20 bg-white/5 backdrop-blur-md text-white px-8 py-4 rounded-full font-label-sm text-label-sm hover:bg-white/10 transition-all"
+                        href="#contact">
                         CONTACT ME
                     </a>
-</div>
-</div>
-<!-- Scroll Indicator -->
-<div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-40">
-<span class="material-symbols-outlined">expand_more</span>
-</div>
-</section>
-<!-- About & Stats -->
-<section class="py-section-gap-desktop px-gutter max-w-7xl mx-auto" id="about">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-<div class="reveal active">
-<h2 class="font-headline-lg text-headline-lg mb-8">Strategizing the <span class="text-primary-container">Next Era</span> of Enterprise Intelligence</h2>
-<div class="space-y-6 text-on-surface-variant font-body-lg text-body-lg">
-<p class="">With over a decade of experience navigating the intersection of Enterprise Content Management (ECM) and disruptive AI, I help organizations shed legacy friction.</p>
-<p class="">My approach is rooted in precision, focusing on bespoke automation frameworks that don't just solve problems but redefine the speed of business. From complex SQL-driven document platforms to cutting-edge n8n neural agents.</p>
-</div>
-</div>
-<div class="grid grid-cols-2 gap-4">
-<div class="glass p-8 rounded-lg flex flex-col justify-between aspect-square reveal hover:border-primary-container/40 transition-colors active" style="transition-delay: 100ms;">
-<span class="material-symbols-outlined text-primary-container text-4xl mb-4">history</span>
-<div>
-<p class="font-display-xl text-headline-lg text-white mb-1">10+</p>
-<p class="font-label-sm text-label-sm uppercase text-on-surface-variant">Years Experience</p>
-</div>
-</div>
-<div class="glass p-8 rounded-lg flex flex-col justify-between aspect-square reveal hover:border-primary-container/40 transition-colors active" style="transition-delay: 200ms;">
-<span class="material-symbols-outlined text-primary-container text-4xl mb-4">task_alt</span>
-<div>
-<p class="font-display-xl text-headline-lg text-white mb-1">100+</p>
-<p class="font-label-sm text-label-sm uppercase text-on-surface-variant">Delivered Projects</p>
-</div>
-</div>
-<div class="glass p-8 rounded-lg flex flex-col justify-between aspect-square reveal hover:border-primary-container/40 transition-colors active" style="transition-delay: 300ms;">
-<span class="material-symbols-outlined text-primary-container text-4xl mb-4">corporate_fare</span>
-<div>
-<p class="font-display-xl text-headline-lg text-white mb-1">Ent.</p>
-<p class="font-label-sm text-label-sm uppercase text-on-surface-variant">Solutions Architect</p>
-</div>
-</div>
-<div class="glass p-8 rounded-lg flex flex-col justify-between aspect-square reveal hover:border-primary-container/40 transition-colors active" style="transition-delay: 400ms;">
-<span class="material-symbols-outlined text-primary-container text-4xl mb-4">psychology</span>
-<div>
-<p class="font-display-xl text-headline-lg text-white mb-1">AI</p>
-<p class="font-label-sm text-label-sm uppercase text-on-surface-variant">Specialist</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Featured Projects -->
-<section class="py-section-gap-desktop bg-surface-container-lowest" id="projects">
-<div class="max-w-7xl mx-auto px-gutter">
-<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-6 reveal active">
-<div>
-<p class="font-label-sm text-label-sm text-primary-container tracking-[0.3em] uppercase mb-4">Portfolio</p>
-<h2 class="font-headline-lg text-headline-lg">Selected Work</h2>
-</div>
-<p class="font-body-md text-body-md text-on-surface-variant max-w-sm">
-                        A curation of enterprise-grade solutions focusing on AI agents and high-performance workflow automation.
+                </div>
+            </div>
+            <!-- Scroll Indicator -->
+            <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-40">
+                <span class="material-symbols-outlined">expand_more</span>
+            </div>
+        </section>
+        <!-- About & Stats -->
+        <section class="py-section-gap-desktop px-gutter max-w-7xl mx-auto" id="about">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+                <div class="reveal active">
+                    <h2 class="font-headline-lg text-headline-lg mb-8">Strategizing the <span
+                            class="text-primary-container">Next Era</span> of Enterprise Intelligence</h2>
+                    <div class="space-y-6 text-on-surface-variant font-body-lg text-body-lg">
+                        <p class="">With over a decade of experience navigating the intersection of Enterprise Content
+                            Management (ECM) and disruptive AI, I help organizations shed legacy friction.</p>
+                        <p class="">My approach is rooted in precision, focusing on bespoke automation frameworks that
+                            don't just solve problems but redefine the speed of business. From complex SQL-driven
+                            document platforms to cutting-edge n8n neural agents.</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="glass p-8 rounded-lg flex flex-col justify-between aspect-square reveal hover:border-primary-container/40 transition-colors active"
+                        style="transition-delay: 100ms;">
+                        <span class="material-symbols-outlined text-primary-container text-4xl mb-4">history</span>
+                        <div>
+                            <p class="font-display-xl text-headline-lg text-white mb-1">10+</p>
+                            <p class="font-label-sm text-label-sm uppercase text-on-surface-variant">Years Experience
+                            </p>
+                        </div>
+                    </div>
+                    <div class="glass p-8 rounded-lg flex flex-col justify-between aspect-square reveal hover:border-primary-container/40 transition-colors active"
+                        style="transition-delay: 200ms;">
+                        <span class="material-symbols-outlined text-primary-container text-4xl mb-4">task_alt</span>
+                        <div>
+                            <p class="font-display-xl text-headline-lg text-white mb-1">100+</p>
+                            <p class="font-label-sm text-label-sm uppercase text-on-surface-variant">Delivered Projects
+                            </p>
+                        </div>
+                    </div>
+                    <div class="glass p-8 rounded-lg flex flex-col justify-between aspect-square reveal hover:border-primary-container/40 transition-colors active"
+                        style="transition-delay: 300ms;">
+                        <span
+                            class="material-symbols-outlined text-primary-container text-4xl mb-4">corporate_fare</span>
+                        <div>
+                            <p class="font-display-xl text-headline-lg text-white mb-1">Ent.</p>
+                            <p class="font-label-sm text-label-sm uppercase text-on-surface-variant">Solutions Architect
+                            </p>
+                        </div>
+                    </div>
+                    <div class="glass p-8 rounded-lg flex flex-col justify-between aspect-square reveal hover:border-primary-container/40 transition-colors active"
+                        style="transition-delay: 400ms;">
+                        <span class="material-symbols-outlined text-primary-container text-4xl mb-4">psychology</span>
+                        <div>
+                            <p class="font-display-xl text-headline-lg text-white mb-1">AI</p>
+                            <p class="font-label-sm text-label-sm uppercase text-on-surface-variant">Specialist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Featured Projects -->
+        <section class="py-section-gap-desktop bg-surface-container-lowest" id="projects">
+            <div class="max-w-7xl mx-auto px-gutter">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-6 reveal active">
+                    <div>
+                        <p class="font-label-sm text-label-sm text-primary-container tracking-[0.3em] uppercase mb-4">
+                            Portfolio</p>
+                        <h2 class="font-headline-lg text-headline-lg">Selected Work</h2>
+                    </div>
+                    <p class="font-body-md text-body-md text-on-surface-variant max-w-sm">
+                        A curation of enterprise-grade solutions focusing on AI agents and high-performance workflow
+                        automation.
                     </p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<!-- Project Card 1 -->
-<div class="group relative glass rounded-lg overflow-hidden reveal active">
-<div class="aspect-video overflow-hidden">
-<img alt="AI Agent Platform" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A futuristic and technical 3D visualization of a neural network being processed by an AI agent platform. The scene features glowing digital data nodes in vibrant orange and deep blue, floating in a dark, volumetric space with a heavy glassmorphic aesthetic. The lighting is crisp and modern, emphasizing technological precision and complexity. High-end enterprise software dashboard elements are subtly visible in the background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe7flZnNj0PdCy1-yriyWyxuXmLf1ZLgrc5CQFI17sMOhqkxFeGYPiT4xDowZhix7bHRD6aLkTPe0V6maPh5MDavBVYlyvQYn9MZTtqam-Duzc2tvmoThm9_qK_pcTur8AbBiSAIxE_np62ITQ3QLE1CQsxqnRGjzJnhZCznK1HEV7rKSKXNEBdsE8c2y9z12OpAMWxHRERbujtIbsBj_fqoFTOLVRX4UxvHCWmZ_LomKcuOT1xr5z1HsGvfi3Lkj6mdVV5ekjA8A">
-</div>
-<div class="p-8">
-<div class="flex gap-2 mb-4">
-<span class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">n8n</span>
-<span class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">OpenAI</span>
-<span class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">Pinecone</span>
-</div>
-<h3 class="font-headline-md text-headline-md mb-3 text-white">AI Agent Platform</h3>
-<p class="font-body-md text-body-md text-on-surface-variant mb-8">Autonomous agent system designed for real-time document analysis and vector-based knowledge retrieval.</p>
-<div class="flex gap-4">
-<button class="text-primary-container font-label-sm text-label-sm flex items-center gap-2 group-hover:underline underline-offset-4">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Project Card 1 -->
+                    <div class="group relative glass rounded-lg overflow-hidden reveal active">
+                        <div class="aspect-video overflow-hidden">
+                            <img alt="AI Agent Platform"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                data-alt="A futuristic and technical 3D visualization of a neural network being processed by an AI agent platform. The scene features glowing digital data nodes in vibrant orange and deep blue, floating in a dark, volumetric space with a heavy glassmorphic aesthetic. The lighting is crisp and modern, emphasizing technological precision and complexity. High-end enterprise software dashboard elements are subtly visible in the background."
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe7flZnNj0PdCy1-yriyWyxuXmLf1ZLgrc5CQFI17sMOhqkxFeGYPiT4xDowZhix7bHRD6aLkTPe0V6maPh5MDavBVYlyvQYn9MZTtqam-Duzc2tvmoThm9_qK_pcTur8AbBiSAIxE_np62ITQ3QLE1CQsxqnRGjzJnhZCznK1HEV7rKSKXNEBdsE8c2y9z12OpAMWxHRERbujtIbsBj_fqoFTOLVRX4UxvHCWmZ_LomKcuOT1xr5z1HsGvfi3Lkj6mdVV5ekjA8A">
+                        </div>
+                        <div class="p-8">
+                            <div class="flex gap-2 mb-4">
+                                <span
+                                    class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">n8n</span>
+                                <span
+                                    class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">OpenAI</span>
+                                <span
+                                    class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">Pinecone</span>
+                            </div>
+                            <h3 class="font-headline-md text-headline-md mb-3 text-white">AI Agent Platform</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant mb-8">Autonomous agent system
+                                designed for real-time document analysis and vector-based knowledge retrieval.</p>
+                            <div class="flex gap-4">
+                                <button
+                                    class="text-primary-container font-label-sm text-label-sm flex items-center gap-2 group-hover:underline underline-offset-4">
                                     CASE STUDY <span class="material-symbols-outlined text-[18px]">north_east</span>
-</button>
-<button class="text-white/40 font-label-sm text-label-sm flex items-center gap-2 hover:text-white transition-colors">
+                                </button>
+                                <button
+                                    class="text-white/40 font-label-sm text-label-sm flex items-center gap-2 hover:text-white transition-colors">
                                     GITHUB
                                 </button>
-</div>
-</div>
-</div>
-<!-- Project Card 2 -->
-<div class="group relative glass rounded-lg overflow-hidden reveal active" style="transition-delay: 150ms;">
-<div class="aspect-video overflow-hidden">
-<img alt="Document Automation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A clean, minimalist abstract background representing a document automation platform. It features layers of semi-transparent glass sheets arranged in an architectural composition, with a soft inner glow and thin, sharp lines of light tracing the edges. The color palette consists of deep blacks, cool grays, and a signature orange highlight. The mood is highly professional, secure, and efficient." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1XgAzALrmNxBhZs_tJCxkWo4bjB3u5leiqoysv4XJLb-YSUvTeCe9rTU5__wxailBV6bfEHZWr5vgfj3YxSe-uOjbGA1NRcFH9aBAxMeCGQzDJ1e2tViBUsgpp-gh_ZfEcTqWZYgIs3_RxgcTwanvpzN-GQ-8M7pxtFRP_Uf8bY6aYvcR-eu4Ayu_d_ku_iFYZW3_TGBZztC9nPkDSGUAD6UPqUswJRfzfYSlOwvmnw5mfUi3LTfIJN8YC-8Z3H_Kky0B-OUzdNE">
-</div>
-<div class="p-8">
-<div class="flex gap-2 mb-4">
-<span class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">OnBase</span>
-<span class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">SQL</span>
-</div>
-<h3 class="font-headline-md text-headline-md mb-3 text-white">Document Automation</h3>
-<p class="font-body-md text-body-md text-on-surface-variant mb-8">High-volume enterprise content management solution automating document ingestion for banking sectors.</p>
-<div class="flex gap-4">
-<button class="text-primary-container font-label-sm text-label-sm flex items-center gap-2 group-hover:underline underline-offset-4">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="group relative glass rounded-lg overflow-hidden reveal active"
+                        style="transition-delay: 150ms;">
+                        <div class="aspect-video overflow-hidden">
+                            <img alt="Document Automation"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                data-alt="A clean, minimalist abstract background representing a document automation platform. It features layers of semi-transparent glass sheets arranged in an architectural composition, with a soft inner glow and thin, sharp lines of light tracing the edges. The color palette consists of deep blacks, cool grays, and a signature orange highlight. The mood is highly professional, secure, and efficient."
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1XgAzALrmNxBhZs_tJCxkWo4bjB3u5leiqoysv4XJLb-YSUvTeCe9rTU5__wxailBV6bfEHZWr5vgfj3YxSe-uOjbGA1NRcFH9aBAxMeCGQzDJ1e2tViBUsgpp-gh_ZfEcTqWZYgIs3_RxgcTwanvpzN-GQ-8M7pxtFRP_Uf8bY6aYvcR-eu4Ayu_d_ku_iFYZW3_TGBZztC9nPkDSGUAD6UPqUswJRfzfYSlOwvmnw5mfUi3LTfIJN8YC-8Z3H_Kky0B-OUzdNE">
+                        </div>
+                        <div class="p-8">
+                            <div class="flex gap-2 mb-4">
+                                <span
+                                    class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">OnBase</span>
+                                <span
+                                    class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">SQL</span>
+                            </div>
+                            <h3 class="font-headline-md text-headline-md mb-3 text-white">Document Automation</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant mb-8">High-volume enterprise
+                                content management solution automating document ingestion for banking sectors.</p>
+                            <div class="flex gap-4">
+                                <button
+                                    class="text-primary-container font-label-sm text-label-sm flex items-center gap-2 group-hover:underline underline-offset-4">
                                     CASE STUDY <span class="material-symbols-outlined text-[18px]">north_east</span>
-</button>
-<button class="text-white/40 font-label-sm text-label-sm flex items-center gap-2 hover:text-white transition-colors">
+                                </button>
+                                <button
+                                    class="text-white/40 font-label-sm text-label-sm flex items-center gap-2 hover:text-white transition-colors">
                                     GITHUB
                                 </button>
-</div>
-</div>
-</div>
-<!-- Project Card 3 -->
-<div class="group relative glass rounded-lg overflow-hidden reveal active">
-<div class="aspect-video overflow-hidden">
-<img alt="Intelligent Email" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="An abstract visualization of intelligent email processing using AI. Glowing stream-like data fibers are shown being sorted into organized channels by an invisible force. The lighting uses a high-contrast dark mode scheme with luminous orange filaments representing information flow. The visual style is cinematic and sleek, conveying a sense of rapid, automated organization." src="https://lh3.googleusercontent.com/aida-public/AB6AXuADByvO__UYa6WQ_uQS_f9erkoO6DRja69o5Wu6TKAUJ8pK4RTEYgE9l1St-6HZmgwE72G8dkltz07MBN0AbITi6azd7r4seU5TnH-x04oc2MsCtBA2ltOM3KOB9ETNBop2i3vqqgYIwYfwE7fxAbgniwZMAjNHW_eDfQaYRgPd5TwIwQlv5hM5ubHnkjfljCY8M5NYWJEb0SoHo65Mv5DPNhoLueoDY_cHGENwSi1OoGCzsiud-uZXC38PN5zTYnApxURCmAofrbw">
-</div>
-<div class="p-8">
-<div class="flex gap-2 mb-4">
-<span class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">n8n</span>
-<span class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">GPT-4</span>
-</div>
-<h3 class="font-headline-md text-headline-md mb-3 text-white">Intelligent Email</h3>
-<p class="font-body-md text-body-md text-on-surface-variant mb-8">End-to-end automation of customer service mailboxes with sentiment analysis and automated drafting.</p>
-<div class="flex gap-4">
-<button class="text-primary-container font-label-sm text-label-sm flex items-center gap-2 group-hover:underline underline-offset-4">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="group relative glass rounded-lg overflow-hidden reveal active">
+                        <div class="aspect-video overflow-hidden">
+                            <img alt="Intelligent Email"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                data-alt="An abstract visualization of intelligent email processing using AI. Glowing stream-like data fibers are shown being sorted into organized channels by an invisible force. The lighting uses a high-contrast dark mode scheme with luminous orange filaments representing information flow. The visual style is cinematic and sleek, conveying a sense of rapid, automated organization."
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuADByvO__UYa6WQ_uQS_f9erkoO6DRja69o5Wu6TKAUJ8pK4RTEYgE9l1St-6HZmgwE72G8dkltz07MBN0AbITi6azd7r4seU5TnH-x04oc2MsCtBA2ltOM3KOB9ETNBop2i3vqqgYIwYfwE7fxAbgniwZMAjNHW_eDfQaYRgPd5TwIwQlv5hM5ubHnkjfljCY8M5NYWJEb0SoHo65Mv5DPNhoLueoDY_cHGENwSi1OoGCzsiud-uZXC38PN5zTYnApxURCmAofrbw">
+                        </div>
+                        <div class="p-8">
+                            <div class="flex gap-2 mb-4">
+                                <span
+                                    class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">n8n</span>
+                                <span
+                                    class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">GPT-4</span>
+                            </div>
+                            <h3 class="font-headline-md text-headline-md mb-3 text-white">Intelligent Email</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant mb-8">End-to-end automation of
+                                customer service mailboxes with sentiment analysis and automated drafting.</p>
+                            <div class="flex gap-4">
+                                <button
+                                    class="text-primary-container font-label-sm text-label-sm flex items-center gap-2 group-hover:underline underline-offset-4">
                                     CASE STUDY <span class="material-symbols-outlined text-[18px]">north_east</span>
-</button>
-<button class="text-white/40 font-label-sm text-label-sm flex items-center gap-2 hover:text-white transition-colors">
+                                </button>
+                                <button
+                                    class="text-white/40 font-label-sm text-label-sm flex items-center gap-2 hover:text-white transition-colors">
                                     GITHUB
                                 </button>
-</div>
-</div>
-</div>
-<!-- Project Card 4 -->
-<div class="group relative glass rounded-lg overflow-hidden reveal active" style="transition-delay: 150ms;">
-<div class="aspect-video overflow-hidden">
-<img alt="Process Analytics" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A sophisticated data visualization dashboard showing business process analytics. The UI is dark and elegant, featuring glowing lines, bars, and heat maps in shades of amber and white. The composition is clean with a focus on deep technical depth and data-driven insights. There is a sense of high-level strategic oversight and real-time intelligence." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZUpy0LJWqlv4IN_S-G6tzawpTcdtpzyjqK4GBdcmgfCKy5gVdQW-vig0IiHtS1A6Rh4FeNeFvArXf1P-ydnZ_nnAPLWmqHU-zpBIS_XNcudbGryAFC_uQwGYn_3zuHo9VNs8j5rVTWESZHHxKmLAw1C-AtqaUjW4laTlovoaLYzq--eOUk3UB5cnz_fzBqG8N1bohUnPT4GvWKLj9AwzikL8z7izOX2_pusfbYiL5r7O0uXJ3gUP_-FxQ--1BxJ-BbqiT5N1B1qA">
-</div>
-<div class="p-8">
-<div class="flex gap-2 mb-4">
-<span class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">Power BI</span>
-<span class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">Azure</span>
-</div>
-<h3 class="font-headline-md text-headline-md mb-3 text-white">Process Analytics</h3>
-<p class="font-body-md text-body-md text-on-surface-variant mb-8">Real-time monitoring dashboards for operational efficiency across multi-departmental workflows.</p>
-<div class="flex gap-4">
-<button class="text-primary-container font-label-sm text-label-sm flex items-center gap-2 group-hover:underline underline-offset-4">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 4 -->
+                    <div class="group relative glass rounded-lg overflow-hidden reveal active"
+                        style="transition-delay: 150ms;">
+                        <div class="aspect-video overflow-hidden">
+                            <img alt="Process Analytics"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                data-alt="A sophisticated data visualization dashboard showing business process analytics. The UI is dark and elegant, featuring glowing lines, bars, and heat maps in shades of amber and white. The composition is clean with a focus on deep technical depth and data-driven insights. There is a sense of high-level strategic oversight and real-time intelligence."
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZUpy0LJWqlv4IN_S-G6tzawpTcdtpzyjqK4GBdcmgfCKy5gVdQW-vig0IiHtS1A6Rh4FeNeFvArXf1P-ydnZ_nnAPLWmqHU-zpBIS_XNcudbGryAFC_uQwGYn_3zuHo9VNs8j5rVTWESZHHxKmLAw1C-AtqaUjW4laTlovoaLYzq--eOUk3UB5cnz_fzBqG8N1bohUnPT4GvWKLj9AwzikL8z7izOX2_pusfbYiL5r7O0uXJ3gUP_-FxQ--1BxJ-BbqiT5N1B1qA">
+                        </div>
+                        <div class="p-8">
+                            <div class="flex gap-2 mb-4">
+                                <span
+                                    class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">Power
+                                    BI</span>
+                                <span
+                                    class="bg-white/5 border border-white/10 px-3 py-1 rounded-full font-label-sm text-[10px] text-primary-container uppercase">Azure</span>
+                            </div>
+                            <h3 class="font-headline-md text-headline-md mb-3 text-white">Process Analytics</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant mb-8">Real-time monitoring
+                                dashboards for operational efficiency across multi-departmental workflows.</p>
+                            <div class="flex gap-4">
+                                <button
+                                    class="text-primary-container font-label-sm text-label-sm flex items-center gap-2 group-hover:underline underline-offset-4">
                                     CASE STUDY <span class="material-symbols-outlined text-[18px]">north_east</span>
-</button>
-<button class="text-white/40 font-label-sm text-label-sm flex items-center gap-2 hover:text-white transition-colors">
+                                </button>
+                                <button
+                                    class="text-white/40 font-label-sm text-label-sm flex items-center gap-2 hover:text-white transition-colors">
                                     GITHUB
                                 </button>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Experience Section -->
-<section class="py-section-gap-desktop px-gutter max-w-4xl mx-auto" id="experience">
-<div class="text-center mb-20 reveal active">
-<p class="font-label-sm text-label-sm text-primary-container tracking-[0.3em] uppercase mb-4">Journey</p>
-<h2 class="font-headline-lg text-headline-lg">Professional Experience</h2>
-</div>
-<div class="relative border-l border-white/10 ml-4 md:ml-0 md:pl-0">
-<!-- Timeline Item 1 -->
-<div class="mb-16 relative pl-10 reveal active">
-<div class="absolute left-[-5px] top-0 w-[10px] h-[10px] rounded-full bg-primary-container shadow-[0_0_10px_#F97316]"></div>
-<span class="font-label-sm text-label-sm text-primary-container uppercase mb-2 block">2021 — PRESENT</span>
-<h3 class="font-headline-md text-headline-md text-white mb-2">Senior ECM &amp; Automation Consultant</h3>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-4">Leading the design and deployment of AI-integrated enterprise workflows. Specializing in bridging legacy systems with modern LLM-driven automation.</p>
-<div class="flex flex-wrap gap-2">
-<span class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">AI Strategy</span>
-<span class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">Process Architecture</span>
-<span class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">Enterprise Integration</span>
-</div>
-</div>
-<!-- Timeline Item 2 -->
-<div class="mb-16 relative pl-10 reveal active" style="transition-delay: 100ms;">
-<div class="absolute left-[-5px] top-0 w-[10px] h-[10px] rounded-full bg-white/20"></div>
-<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mb-2 block">2016 — 2021</span>
-<h3 class="font-headline-md text-headline-md text-white mb-2">IT Manager</h3>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-4">Directed IT operations and infrastructure for enterprise scales. Focused on digital transformation, security protocols, and system scalability.</p>
-<div class="flex flex-wrap gap-2">
-<span class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">Management</span>
-<span class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">Infrastructure</span>
-<span class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">Governance</span>
-</div>
-</div>
-<!-- Timeline Item 3 -->
-<div class="relative pl-10 reveal active" style="transition-delay: 200ms;">
-<div class="absolute left-[-5px] top-0 w-[10px] h-[10px] rounded-full bg-white/20"></div>
-<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mb-2 block">2012 — 2016</span>
-<h3 class="font-headline-md text-headline-md text-white mb-2">Business Process Consultant</h3>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-4">Consulted for diverse industries on operational bottlenecks and document management strategies.</p>
-<div class="flex flex-wrap gap-2">
-<span class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">BPM</span>
-<span class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">OnBase Specialist</span>
-<span class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">Data Analysis</span>
-</div>
-</div>
-</div>
-</section>
-<!-- Contact Section -->
-<section class="py-section-gap-desktop px-gutter bg-gradient-to-b from-transparent to-surface-container-lowest" id="contact">
-<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20">
-<div class="reveal active">
-<p class="font-label-sm text-label-sm text-primary-container tracking-[0.3em] uppercase mb-4">Contact</p>
-<h2 class="font-display-xl text-headline-lg md:text-display-xl mb-8">Let’s Build Something <span class="text-primary-container">Together</span>.</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-12 max-w-md">Ready to automate your enterprise? Let's discuss how AI and advanced process design can transform your bottom line.</p>
-<div class="space-y-6">
-<div class="flex items-center gap-4">
-<div class="w-12 h-12 rounded-full glass flex items-center justify-center text-primary-container">
-<span class="material-symbols-outlined">mail</span>
-</div>
-<span class="font-body-lg text-white">hello@guillermomartinez.com</span>
-</div>
-<div class="flex items-center gap-4">
-<div class="w-12 h-12 rounded-full glass flex items-center justify-center text-primary-container">
-<span class="material-symbols-outlined">location_on</span>
-</div>
-<span class="font-body-lg text-white">Madrid, Spain — Global Consulting</span>
-</div>
-</div>
-</div>
-<div class="glass p-8 md:p-12 rounded-lg reveal active" style="transition-delay: 200ms;">
-<form class="space-y-8">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<div class="relative">
-<input class="w-full bg-transparent border-0 border-b border-white/10 py-4 px-0 focus:ring-0 focus:border-primary-container transition-all placeholder:text-white/20 text-white font-body-md" id="name" placeholder="Name" type="text">
-</div>
-<div class="relative">
-<input class="w-full bg-transparent border-0 border-b border-white/10 py-4 px-0 focus:ring-0 focus:border-primary-container transition-all placeholder:text-white/20 text-white font-body-md" id="email" placeholder="Email" type="email">
-</div>
-</div>
-<div class="relative">
-<input class="w-full bg-transparent border-0 border-b border-white/10 py-4 px-0 focus:ring-0 focus:border-primary-container transition-all placeholder:text-white/20 text-white font-body-md" id="company" placeholder="Company" type="text">
-</div>
-<div class="relative">
-<textarea class="w-full bg-transparent border-0 border-b border-white/10 py-4 px-0 focus:ring-0 focus:border-primary-container transition-all placeholder:text-white/20 text-white font-body-md resize-none" id="message" placeholder="Message" rows="4"></textarea>
-</div>
-<button class="w-full bg-primary-container text-on-primary font-label-sm text-label-sm py-5 rounded-full hover:scale-[1.02] active:scale-95 transition-all glow-hover" type="submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experience Section -->
+        <section class="py-section-gap-desktop px-gutter max-w-4xl mx-auto" id="experience">
+            <div class="text-center mb-20 reveal active">
+                <p class="font-label-sm text-label-sm text-primary-container tracking-[0.3em] uppercase mb-4">Journey
+                </p>
+                <h2 class="font-headline-lg text-headline-lg">Professional Experience</h2>
+            </div>
+            <div class="relative border-l border-white/10 ml-4 md:ml-0 md:pl-0">
+                <!-- Timeline Item 1 -->
+                <div class="mb-16 relative pl-10 reveal active">
+                    <div
+                        class="absolute left-[-5px] top-0 w-[10px] h-[10px] rounded-full bg-primary-container shadow-[0_0_10px_#F97316]">
+                    </div>
+                    <span class="font-label-sm text-label-sm text-primary-container uppercase mb-2 block">2021 —
+                        PRESENT</span>
+                    <h3 class="font-headline-md text-headline-md text-white mb-2">Senior ECM &amp; Automation Consultant
+                    </h3>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-4">Leading the design and deployment
+                        of AI-integrated enterprise workflows. Specializing in bridging legacy systems with modern
+                        LLM-driven automation.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">AI
+                            Strategy</span>
+                        <span
+                            class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">Process
+                            Architecture</span>
+                        <span
+                            class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">Enterprise
+                            Integration</span>
+                    </div>
+                </div>
+                <!-- Timeline Item 2 -->
+                <div class="mb-16 relative pl-10 reveal active" style="transition-delay: 100ms;">
+                    <div class="absolute left-[-5px] top-0 w-[10px] h-[10px] rounded-full bg-white/20"></div>
+                    <span class="font-label-sm text-label-sm text-on-surface-variant uppercase mb-2 block">2016 —
+                        2021</span>
+                    <h3 class="font-headline-md text-headline-md text-white mb-2">IT Manager</h3>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-4">Directed IT operations and
+                        infrastructure for enterprise scales. Focused on digital transformation, security protocols, and
+                        system scalability.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span
+                            class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">Management</span>
+                        <span
+                            class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">Infrastructure</span>
+                        <span
+                            class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">Governance</span>
+                    </div>
+                </div>
+                <!-- Timeline Item 3 -->
+                <div class="relative pl-10 reveal active" style="transition-delay: 200ms;">
+                    <div class="absolute left-[-5px] top-0 w-[10px] h-[10px] rounded-full bg-white/20"></div>
+                    <span class="font-label-sm text-label-sm text-on-surface-variant uppercase mb-2 block">2012 —
+                        2016</span>
+                    <h3 class="font-headline-md text-headline-md text-white mb-2">Business Process Consultant</h3>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-4">Consulted for diverse industries
+                        on operational bottlenecks and document management strategies.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span
+                            class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">BPM</span>
+                        <span class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">OnBase
+                            Specialist</span>
+                        <span class="text-[10px] text-on-surface-variant px-2 py-1 border border-white/5 rounded">Data
+                            Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="py-section-gap-desktop px-gutter bg-gradient-to-b from-transparent to-surface-container-lowest"
+            id="contact">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20">
+                <div class="reveal active">
+                    <p class="font-label-sm text-label-sm text-primary-container tracking-[0.3em] uppercase mb-4">
+                        Contact</p>
+                    <h2 class="font-display-xl text-headline-lg md:text-display-xl mb-8">Let’s Build Something <span
+                            class="text-primary-container">Together</span>.</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-12 max-w-md">Ready to automate your
+                        enterprise? Let's discuss how AI and advanced process design can transform your bottom line.</p>
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-12 h-12 rounded-full glass flex items-center justify-center text-primary-container">
+                                <span class="material-symbols-outlined">mail</span>
+                            </div>
+                            <span class="font-body-lg text-white">hello@guillermomartinez.com</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-12 h-12 rounded-full glass flex items-center justify-center text-primary-container">
+                                <span class="material-symbols-outlined">location_on</span>
+                            </div>
+                            <span class="font-body-lg text-white">Madrid, Spain — Global Consulting</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass p-8 md:p-12 rounded-lg reveal active" style="transition-delay: 200ms;">
+                    <form class="space-y-8">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="relative">
+                                <input
+                                    class="w-full bg-transparent border-0 border-b border-white/10 py-4 px-0 focus:ring-0 focus:border-primary-container transition-all placeholder:text-white/20 text-white font-body-md"
+                                    id="name" placeholder="Name" type="text">
+                            </div>
+                            <div class="relative">
+                                <input
+                                    class="w-full bg-transparent border-0 border-b border-white/10 py-4 px-0 focus:ring-0 focus:border-primary-container transition-all placeholder:text-white/20 text-white font-body-md"
+                                    id="email" placeholder="Email" type="email">
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <input
+                                class="w-full bg-transparent border-0 border-b border-white/10 py-4 px-0 focus:ring-0 focus:border-primary-container transition-all placeholder:text-white/20 text-white font-body-md"
+                                id="company" placeholder="Company" type="text">
+                        </div>
+                        <div class="relative">
+                            <textarea
+                                class="w-full bg-transparent border-0 border-b border-white/10 py-4 px-0 focus:ring-0 focus:border-primary-container transition-all placeholder:text-white/20 text-white font-body-md resize-none"
+                                id="message" placeholder="Message" rows="4"></textarea>
+                        </div>
+                        <button
+                            class="w-full bg-primary-container text-on-primary font-label-sm text-label-sm py-5 rounded-full hover:scale-[1.02] active:scale-95 transition-all glow-hover"
+                            type="submit">
                             SEND MESSAGE
                         </button>
-</form>
-</div>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="mt-40 border-t border-white/5 py-20 px-gutter">
-<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
-<div>
-<h3 class="font-headline-md text-headline-md font-semibold text-on-surface mb-6">Guillermo Martínez</h3>
-<p class="font-body-md text-body-md text-on-secondary-container/60 max-w-sm mb-8">
-                    © 2024 Guillermo Martínez. Built for the era of automation. Precision-engineered solutions for modern organizations.
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="mt-40 border-t border-white/5 py-20 px-gutter">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="font-headline-md text-headline-md font-semibold text-on-surface mb-6">Guillermo Martínez</h3>
+                <p class="font-body-md text-body-md text-on-secondary-container/60 max-w-sm mb-8">
+                    © 2024 Guillermo Martínez. Built for the era of automation. Precision-engineered solutions for
+                    modern organizations.
                 </p>
-<div class="flex gap-4">
-<a class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-primary-container hover:text-primary-container transition-all" href="#">
-<span class="material-symbols-outlined text-[18px]">hub</span>
-</a>
-<a class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-primary-container hover:text-primary-container transition-all" href="#">
-<span class="material-symbols-outlined text-[18px]">terminal</span>
-</a>
-<a class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-primary-container hover:text-primary-container transition-all" href="#">
-<span class="material-symbols-outlined text-[18px]">alternate_email</span>
-</a>
-</div>
-</div>
-<div class="grid grid-cols-2 gap-8">
-<div>
-<h4 class="font-label-sm text-label-sm uppercase text-white mb-6">Services</h4>
-<ul class="space-y-4 font-body-md text-body-md text-on-secondary-container/60">
-<li class=""><a class="hover:text-primary-container transition-colors" href="#">Strategic Advisory</a></li>
-<li class=""><a class="hover:text-primary-container transition-colors" href="#">AI Implementation</a></li>
-<li class=""><a class="hover:text-primary-container transition-colors" href="#">Case Studies</a></li>
-<li class=""><a class="hover:text-primary-container transition-colors" href="#">ECM Solutions</a></li>
-</ul>
-</div>
-<div>
-<h4 class="font-label-sm text-label-sm uppercase text-white mb-6">Legal</h4>
-<ul class="space-y-4 font-body-md text-body-md text-on-secondary-container/60">
-<li class=""><a class="hover:text-primary-container transition-colors" href="#">Privacy Policy</a></li>
-<li class=""><a class="hover:text-primary-container transition-colors" href="#">Terms of Service</a></li>
-</ul>
-</div>
-</div>
-</div>
-</footer>
-<script>
+                <div class="flex gap-4">
+                    <a class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-primary-container hover:text-primary-container transition-all"
+                        href="#">
+                        <span class="material-symbols-outlined text-[18px]">hub</span>
+                    </a>
+                    <a class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-primary-container hover:text-primary-container transition-all"
+                        href="#">
+                        <span class="material-symbols-outlined text-[18px]">terminal</span>
+                    </a>
+                    <a class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-primary-container hover:text-primary-container transition-all"
+                        href="#">
+                        <span class="material-symbols-outlined text-[18px]">alternate_email</span>
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-8">
+                <div>
+                    <h4 class="font-label-sm text-label-sm uppercase text-white mb-6">Services</h4>
+                    <ul class="space-y-4 font-body-md text-body-md text-on-secondary-container/60">
+                        <li class=""><a class="hover:text-primary-container transition-colors" href="#">Strategic
+                                Advisory</a></li>
+                        <li class=""><a class="hover:text-primary-container transition-colors" href="#">AI
+                                Implementation</a></li>
+                        <li class=""><a class="hover:text-primary-container transition-colors" href="#">Case Studies</a>
+                        </li>
+                        <li class=""><a class="hover:text-primary-container transition-colors" href="#">ECM
+                                Solutions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-label-sm text-label-sm uppercase text-white mb-6">Legal</h4>
+                    <ul class="space-y-4 font-body-md text-body-md text-on-secondary-container/60">
+                        <li class=""><a class="hover:text-primary-container transition-colors" href="#">Privacy
+                                Policy</a></li>
+                        <li class=""><a class="hover:text-primary-container transition-colors" href="#">Terms of
+                                Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
         // Simple Intersection Observer for scroll reveal animations
         const revealCallback = (entries) => {
             entries.forEach(entry => {
@@ -596,4 +740,6 @@ void main() {
     </script>
 
 
-</body></html>
+</body>
+
+</html>
